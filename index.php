@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ReAi - AI Developer Assistant</title>
+  <title>ZyrAI - AI Developer Assistant</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <script>
@@ -661,14 +661,14 @@
       <!-- New Chat Button -->
       <button id="new-chat-btn" class="m-4 px-5 py-3.5 animated-gradient hover:shadow-2xl rounded-xl flex items-center justify-center gap-3 transition-all duration-300 font-bold text-sm hover:scale-105 shadow-lg">
         <i class="fas fa-plus-circle"></i>
-        <span>Percakapan Baru</span>
+        <span>New Chat</span>
       </button>
 
       <!-- History Section -->
       <div class="px-4 pb-3 pt-2">
         <div class="flex items-center gap-2 text-xs text-gray-400 uppercase tracking-wider font-bold">
           <i class="fas fa-history"></i>
-          <span>Riwayat Chat</span>
+          <span>Story Chat</span>
         </div>
       </div>
       
@@ -680,7 +680,7 @@
           <div class="flex items-center justify-between text-xs">
             <div class="flex items-center gap-2 text-gray-300">
               <i class="fas fa-info-circle"></i>
-              <span class="font-semibold">ReAi v2.5</span>
+              <span class="font-semibold">ZyrAi v1.0</span>
             </div>
             <div class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
           </div>
@@ -705,7 +705,7 @@
             </select>
           </div>
           <div class="chat-title-container">
-            <div class="text-sm font-bold text-gray-800 chat-title" id="current-chat-title">Percakapan Baru</div>
+            <div class="text-sm font-bold text-gray-800 chat-title" id="current-chat-title">New Chat</div>
             <button id="delete-chat-btn" class="text-red-500 hover:bg-red-50 w-9 h-9 rounded-xl flex items-center justify-center transition-all hover:scale-110" title="Hapus Chat">
               <i class="fas fa-trash-alt"></i>
             </button>
@@ -1240,4 +1240,5 @@
     });
   </script>
 </body>
+
 </html>
